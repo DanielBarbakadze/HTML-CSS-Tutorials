@@ -5,8 +5,10 @@ nav a {
     height:100px;
     width:30px;  
     margin-bottom: 10px;
+    border-color: green;
+    border-width: 3px;
+    border-style: solid;
 }
 nav a:last-child {
     margin-bottom: 0px;
-    background-color: green;
 }
