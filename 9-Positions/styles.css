@@ -1,15 +1,26 @@
 .main {
-    background: darkblue;
-    height: 300px;
-    width: 300px;
+    margin-top: 20px;
+    background: rgb(236, 236, 236);
+    height: 60px;
+    width: 60px;
     position: relative;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 30px;
 }
 .center {
     position: absolute;
-    background: white;
-    height: 40px;
-    width: 100px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    background: rgb(255, 74, 74);
+    height: 25px;
+    max-height: 25px;
+    min-width: 25px;
+    right: 0;
+    transform: translate(30%, -30%);
+    border-radius: 100px;
+    color: white;
+    text-align: center;
+    font-size: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 5%;
 }
