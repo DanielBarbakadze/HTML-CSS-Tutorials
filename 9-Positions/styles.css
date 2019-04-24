@@ -1,0 +1,36 @@
+.main {
+    background: darkblue;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    padding: 10px;
+}
+.top_left {
+    position: relative;
+    background: white;
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+.top_right {
+    position: relative;
+    background: white;
+    height: 80px;
+    width: 80px;
+    float: right;
+}
+.bottom_left {
+    position: absolute;
+    background: white;
+    height: 80px;
+    width: 80px;
+    bottom: 10px;
+}
+.bottom_right {
+    position: absolute;
+    background: white;
+    height: 80px;
+    width: 80px;
+    bottom: 10px;
+    right: 10px;
+}
