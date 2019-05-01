@@ -24,7 +24,6 @@ footer {
     display: flex;
     height: 150px;
     margin-bottom: 30px;
-  
 }
 .row div {
     background-color: gray;
@@ -32,8 +31,44 @@ footer {
 }
 .div1, .div2,.div3{
    flex-grow: 1;
-
 }
 .div1,.div2 {
     margin-right: 15px;
 }
+.row2 div {
+    background-color: gray;
+}
+.row3 div {
+    background-color: gray;
+}
+.row2 {
+    display: flex;
+    height: 150px;
+    margin-bottom: 30px;
+}
+ .div4{
+    flex-grow: 2;
+ }
+ .div5{
+    flex-grow: 1;
+ }
+ .div4 {
+    margin-right: 15px;
+ }
+ .row2 div {
+    background-color: gray;
+}
+.row3 {
+    display: flex;
+    height: 150px;
+    margin-bottom: 30px;
+}
+ .div7{
+    flex-grow: 2;
+ }
+ .div6{
+    flex-grow: 1;
+ }
+ .div6 {
+    margin-right: 15px;
+ }
