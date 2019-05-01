@@ -6,7 +6,7 @@
             
 main {
     width: 680px;
-    height: 640px;
+    height: 630px;
     border: solid 1px #ECF0F1;
     align-content: center;
     margin: auto;
@@ -22,10 +22,22 @@ h1 {
     font-family: 'Lobster';
     font-size: 24px;
     color: #21C2F8;
+    margin-left: -23px;
 }
-.info1 , .info2 {
+.info1 {
     font-family: 'PT Sans';
     color: #B0BEC7;
+    margin-left: -23px;
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 25.4px;
+    word-spacing: 3.3px
+}
+ .info2 {
+    font-family: 'PT Sans';
+    color: #B0BEC7;
+    font-size: 14px;
+    line-height: 23.6px
 }
 .section1{
     margin-left: 40px;
@@ -37,9 +49,10 @@ hr {
     margin-top: 20px;
   }
 .section2 {
-    width: 640px;
+    width: 657px;
     height: 90px;
-    margin: 15px auto;
+    margin-left: 19.6px;
+    margin-top: 12px;
 }
 .addtional{
     width: 640px;
@@ -49,4 +62,16 @@ hr {
 .addtional a {
     color: #21C2F8;
     text-decoration: none;
+    position: relative;
+    top: 7px;
+    font-size: 14px;
+    right: 2px;
+}
+.info1 span::after {
+    content: "";
+    display: inline-block;
+    background-color: black;
+    width: 1px;
+    height: 16px;
+   
 }
