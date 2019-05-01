@@ -3,15 +3,50 @@
     padding: 0;
     margin: 0;
 }
-
-body {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
+            
+main {
+    width: 680px;
+    height: 640px;
+    border: solid 1px #ECF0F1;
+    align-content: center;
+    margin: auto;
+    margin-top: 25px;
 }
-
+main .color {
+    width: 640px;
+    height: 350px;
+    margin: 15px auto;
+    background-color: #A1B1BC;
+}
 h1 {
     font-family: 'Lobster';
+    font-size: 24px;
+    color: #21C2F8;
 }
-p {
+.info1 , .info2 {
     font-family: 'PT Sans';
-} 
+    color: #B0BEC7;
+}
+.section1{
+    margin-left: 40px;
+}
+hr {
+    border: 1;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+.section2 {
+    width: 640px;
+    height: 90px;
+    margin: 15px auto;
+}
+.addtional{
+    width: 640px;
+    margin: 15px auto;
+    
+}
+.addtional a {
+    color: #21C2F8;
+    text-decoration: none;
+}
