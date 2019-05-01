@@ -1,8 +1,12 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 main {
- width: 600px;
+    display: flex;
+    flex-direction: column;
+ width: 100%;
  margin: 0 auto;
 }
 header {
@@ -22,7 +26,7 @@ footer {
     margin-bottom: 30px;
   
 }
-.row  div {
+.row div {
     background-color: gray;
   
 }
@@ -42,6 +46,6 @@ footer {
    
 }
 .div3 {
-    width: 150px;
+    width: 60%;
     background-color: red;
 }
