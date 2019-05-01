@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+main {
+ width: 600px;
+ margin: 0 auto;
+}
+header {
+    background-color:gray;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+footer {
+    background-color:gray;
+    height: 150px;
+    width: 100%
+}
+.row {
+    display: flex;
+    height: 150px;
+    margin-bottom: 30px;
+  
+}
+.row  div {
+    background-color: gray;
+  
+}
+.div1, .div2{
+   flex-grow: 1;
+
+}
+.div1 {
+    margin-right: 15px;
+}
+.row2 {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+   
+    margin-bottom: 30px;
+   
+}
+.div3 {
+    width: 150px;
+    background-color: red;
+}
