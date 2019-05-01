@@ -12,23 +12,21 @@ main {
     width: 260px;
     float: left;
     margin: 0 10px;
-    margin-bottom: 30px;
+    margin-bottom: -149px;
 }
 .col-1 {
     margin-left: 0;
 }
 .col-3 {
     margin-right: 0;
+    height: 330px;
 }
 .row {
     clear: both;
     background: transparent;
 }
 
-.col-5 {
-    float: right;
-    width: 260px
-}
+
 .col-4 {
     float: left;
     width: 536px;
