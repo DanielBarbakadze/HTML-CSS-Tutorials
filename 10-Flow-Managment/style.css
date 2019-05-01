@@ -23,4 +23,29 @@ main {
 .row {
     clear: both;
     background: transparent;
-} 
+}
+
+.col-5 {
+    float: right;
+    width: 260px
+}
+.col-4 {
+    float: left;
+    width: 536px;
+}
+.row1 {
+    clear: both;
+    background: transparent;
+}
+.col-7 {
+    float: right;
+    width: 536px;
+}
+.col-6 {
+    float: left;
+    width: 258px;
+}
+.row2 {
+    clear: both;
+    background: transparent;
+}
