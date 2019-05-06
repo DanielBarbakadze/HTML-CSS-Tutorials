@@ -6,39 +6,16 @@
 
 section{
     width:600px;
-    height:600px;
+    height:400px;
     margin:50px auto 0;
     display: grid;
     grid-gap: 20px;
 }
 
 section div{
-    background-color: #f9f6ff;
+    background-color: #ff0013;
 }
 
-.header{
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
-.col-1{
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-
-.col-2{
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-
-.col-3{
-    width: 60%;
-    justify-self: center;
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
-.footer{
-    grid-column-start: 1;
-    grid-column-end: 3;
+.header, .footer{
+    grid-column: 1/4;
 }
